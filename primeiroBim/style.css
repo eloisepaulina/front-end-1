@@ -1,0 +1,80 @@
+@charset "UTF-8";
+*{
+    background-color: rgb(252, 216, 139);
+    
+}
+header {
+  font-size: 50px;
+  font-family: 'inter', sans-serif;
+  background-color: rgb(245, 184, 93);
+  text-align: center;
+  margin: 0px;
+  color: rgb(148, 93, 22);
+  padding: 30px 10px; 
+}
+
+header h4 {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+
+
+img{
+    margin-left: 35%;
+}
+h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+  
+}
+
+ul {
+  font-size: medium;
+  text-align: center;
+}
+
+
+  
+
+nav ul {
+  list-style: nome;
+  display: flex;
+  justify-self: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+nav ul li a {
+  background-color: white ;
+  color: #4a5568;
+  padding: 0.75rem 1.25rem;
+  border-radius: 999px;
+text-decoration: none;
+font-weight: 600;
+transition: all 0.3s ease;
+border: 2px solid transparent;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+background-color: rgb(177, 113, 30);
+color: white;
+border-color: #553c9a;
+transform: scale(1.05);
+box-shadow: 0 4px 10px rgba(107, 70, 193, 0.2);
+}
+
+nav ul li a[aria-current="page"] {
+background-color: #6b46c1;
+color: white;
+border-color: #553c9a;
+}
+
+#curiosidades {
+  color: rgb(226, 147, 43);
+  text-align: center;
+}
+h3{
+    text-align: center;
+}
